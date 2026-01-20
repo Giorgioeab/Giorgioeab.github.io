@@ -115,18 +115,18 @@ const Navbar: React.FC = () => {
                 </Motion.div>
 
                 {/* Desktop Menu */}
-                <div className="hidden md:flex items-center space-x-8">
+                <div className="hidden md:flex items-center gap-1">
                     {navLinks.map((link) => (
                         <a
                             key={link.name}
                             href={link.href}
-                            className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
+                            className="px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800"
                         >
                             {link.name}
                         </a>
                     ))}
 
-                    <div className="flex items-center space-x-4 border-l pl-6 border-gray-300 dark:border-gray-700">
+                    <div className="flex items-center gap-2 ml-4 pl-4 border-l border-gray-300 dark:border-gray-700">
                         {/* Language Dropdown */}
                         <div className="relative" ref={langMenuRef}>
                             <button

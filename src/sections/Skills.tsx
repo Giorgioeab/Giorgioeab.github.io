@@ -14,10 +14,10 @@ const Skills: React.FC = () => {
     const { t } = useTranslation();
 
     const skills: Skill[] = [
-        { name: t('skills.categories.frontend'), icon: <Layout size={32} />, items: ['React', 'Vue', 'Tailwind', 'TypeScript'] },
-        { name: t('skills.categories.backend'), icon: <Server size={32} />, items: ['Node.js', 'Python', 'Go', 'SQL'] },
-        { name: t('skills.categories.mobile'), icon: <Smartphone size={32} />, items: ['React Native', 'Flutter'] },
-        { name: t('skills.categories.devops'), icon: <Globe size={32} />, items: ['Docker', 'AWS', 'CI/CD'] },
+        { name: t('skills.categories.frontend'), icon: <Layout size={32} />, items: ['React', 'Vite', 'Tailwind', 'TypeScript'] },
+        { name: t('skills.categories.backend'), icon: <Server size={32} />, items: ['Node.js', 'Python', 'SQL'] },
+        { name: t('skills.categories.mobile'), icon: <Smartphone size={32} />, items: ['React Native'] },
+        { name: t('skills.categories.devops'), icon: <Globe size={32} />, items: ['Docker', 'CI/CD'] },
         { name: t('skills.categories.tools'), icon: <Code size={32} />, items: ['Git', 'VS Code', 'Figma'] },
         { name: t('skills.categories.database'), icon: <Database size={32} />, items: ['PostgreSQL', 'MongoDB', 'Redis'] },
     ];
