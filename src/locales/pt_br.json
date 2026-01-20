@@ -1,0 +1,80 @@
+{
+  "common": {
+    "brand": "Portfolio",
+    "language": "Idioma",
+    "toggleTheme": "Alternar tema"
+  },
+  "navbar": {
+    "home": "Início",
+    "about": "Sobre",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu"
+  },
+  "hero": {
+    "title": "Desenvolvedor Criativo",
+    "subtitle": "Construindo experiências digitais com paixão e precisão.",
+    "cta": "Ver Meus Trabalhos"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "description": "Sou um desenvolvedor de software apaixonado por criar soluções inovadoras.",
+    "longDescription": "Atuo construindo produtos digitais com foco em performance, acessibilidade e experiências elegantes. Gosto de colaborar com times multidisciplinares para entregar valor rápido e iterar com base em feedback.",
+    "imageAlt": "Foto de perfil"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "categories": {
+      "frontend": "Front-end",
+      "backend": "Back-end",
+      "mobile": "Mobile",
+      "devops": "DevOps",
+      "tools": "Ferramentas",
+      "database": "Banco de Dados"
+    }
+  },
+  "projects": {
+    "title": "Projetos",
+    "viewMore": "Ver Mais",
+    "viewDemo": "Ver demonstração",
+    "viewCode": "Ver código",
+    "items": [
+      {
+        "title": "Projeto Alpha",
+        "description": "Um aplicativo revolucionário que resolve problemas reais usando IA."
+      },
+      {
+        "title": "Projeto Beta",
+        "description": "Plataforma de e-commerce com gestão de inventário em tempo real."
+      },
+      {
+        "title": "Projeto Gamma",
+        "description": "Dashboard de mídia social para análises e agendamento."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "name": "Nome",
+    "email": "Email",
+    "message": "Mensagem",
+    "send": "Enviar Mensagem",
+    "whatsappMessage": "Olá, visitei seu portfólio e gostaria de conversar!",
+    "whatsappNumber": "5585986453319",
+    "phoneLabel": "Telefone/WhatsApp",
+    "phoneNumber": "+55 (85) 98645-3319",
+    "emailLabel": "Email",
+    "emailAddress": "giorgio.desenvolvedor@gmail.com",
+    "locationLabel": "Localização",
+    "locationValue": "Fortaleza, Brasil",
+    "namePlaceholder": "Seu nome",
+    "emailPlaceholder": "seuemail@exemplo.com",
+    "messagePlaceholder": "Olá, gostaria de falar sobre...",
+    "redirectNotice": "Obrigado! Redirecionando para o WhatsApp..."
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados."
+  }
+}
