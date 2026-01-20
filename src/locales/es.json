@@ -1,0 +1,80 @@
+{
+  "common": {
+    "brand": "Portfolio",
+    "language": "Idioma",
+    "toggleTheme": "Cambiar tema"
+  },
+  "navbar": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "hero": {
+    "title": "Desarrollador Creativo",
+    "subtitle": "Construyendo experiencias digitales con pasión y precisión.",
+    "cta": "Ver Mis Trabajos"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "description": "Soy un desarrollador de software apasionado por crear soluciones innovadoras.",
+    "longDescription": "Construyo productos digitales con enfoque en rendimiento, accesibilidad y experiencias cuidadas. Disfruto colaborar con equipos multidisciplinarios para entregar valor rápido e iterar con feedback continuo.",
+    "imageAlt": "Foto de perfil"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Móvil",
+      "devops": "DevOps",
+      "tools": "Herramientas",
+      "database": "Base de datos"
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "viewMore": "Ver Más",
+    "viewDemo": "Ver demo",
+    "viewCode": "Ver código",
+    "items": [
+      {
+        "title": "Proyecto Alpha",
+        "description": "Una aplicación revolucionaria que resuelve problemas del mundo real usando IA."
+      },
+      {
+        "title": "Proyecto Beta",
+        "description": "Plataforma de comercio electrónico con gestión de inventario en tiempo real."
+      },
+      {
+        "title": "Proyecto Gamma",
+        "description": "Panel de redes sociales para análisis y programación."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "name": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "whatsappMessage": "Hola, visité tu portafolio y me gustaría hablar.",
+    "whatsappNumber": "5585986453319",
+    "phoneLabel": "Teléfono/WhatsApp",
+    "phoneNumber": "+55 (85) 98645-3319",
+    "emailLabel": "Correo",
+    "emailAddress": "giorgio.desenvolvedor@gmail.com",
+    "locationLabel": "Ubicación",
+    "locationValue": "Fortaleza, Brasil",
+    "namePlaceholder": "Tu nombre",
+    "emailPlaceholder": "tucorreo@ejemplo.com",
+    "messagePlaceholder": "Hola, me gustaría hablar sobre...",
+    "redirectNotice": "¡Gracias! Redirigiendo a WhatsApp..."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}
