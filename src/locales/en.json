@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "Creative Developer",
-    "subtitle": "Building digital experiences with passion and precision.",
+    "subtitle": "Building digital experiences with precision and security.",
     "cta": "View My Work"
   },
   "about": {
@@ -42,16 +42,16 @@
     "viewCode": "View code",
     "items": [
       {
-        "title": "Project Alpha",
-        "description": "A revolutionary app that solves real-world problems using AI."
+        "title": "Personal Portfolio",
+        "description": "My professional portfolio built with React, TypeScript and Tailwind CSS, showcasing my projects and skills."
       },
       {
-        "title": "Project Beta",
-        "description": "E-commerce platform with real-time inventory management."
+        "title": "Task Manager",
+        "description": "Full-stack task manager with RESTful API, React frontend and Node.js backend with MongoDB."
       },
       {
-        "title": "Project Gamma",
-        "description": "Social media dashboard for analytics and scheduling."
+        "title": "School Management System",
+        "description": "Desktop system for school management with student, teacher, course and class registration using Python and SQLite."
       }
     ]
   },
