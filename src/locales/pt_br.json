@@ -1,6 +1,6 @@
 {
   "common": {
-    "brand": "Portfolio",
+    "brand": "Portfólio",
     "language": "Idioma",
     "toggleTheme": "Alternar tema"
   },
@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "Desenvolvedor Criativo",
-    "subtitle": "Construindo experiências digitais com paixão e precisão.",
+    "subtitle": "Construindo experiências digitais com precisão e segurança.",
     "cta": "Ver Meus Trabalhos"
   },
   "about": {
@@ -42,16 +42,16 @@
     "viewCode": "Ver código",
     "items": [
       {
-        "title": "Projeto Alpha",
-        "description": "Um aplicativo revolucionário que resolve problemas reais usando IA."
+        "title": "Portfólio Pessoal",
+        "description": "Meu portfólio profissional desenvolvido com React, TypeScript e Tailwind CSS, apresentando meus projetos e habilidades."
       },
       {
-        "title": "Projeto Beta",
-        "description": "Plataforma de e-commerce com gestão de inventário em tempo real."
+        "title": "Task Manager",
+        "description": "Gerenciador de tarefas full-stack com API RESTful, frontend em React e backend em Node.js com MongoDB."
       },
       {
-        "title": "Projeto Gamma",
-        "description": "Dashboard de mídia social para análises e agendamento."
+        "title": "Sistema de Gestão Escolar",
+        "description": "Sistema desktop para gestão escolar com cadastro de alunos, professores, cursos e turmas usando Python e SQLite."
       }
     ]
   },
@@ -72,7 +72,7 @@
     "namePlaceholder": "Seu nome",
     "emailPlaceholder": "seuemail@exemplo.com",
     "messagePlaceholder": "Olá, gostaria de falar sobre...",
-    "redirectNotice": "Obrigado! Redirecionando para o WhatsApp..."
+    "redirectNotice": "Obrigado! Você será redirecionado para o WhatsApp..."
   },
   "footer": {
     "rights": "Todos os direitos reservados."

@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "Desarrollador Creativo",
-    "subtitle": "Construyendo experiencias digitales con pasión y precisión.",
+    "subtitle": "Construyendo experiencias digitales con precisión y seguridad.",
     "cta": "Ver Mis Trabajos"
   },
   "about": {
@@ -42,16 +42,16 @@
     "viewCode": "Ver código",
     "items": [
       {
-        "title": "Proyecto Alpha",
-        "description": "Una aplicación revolucionaria que resuelve problemas del mundo real usando IA."
+        "title": "Portafolio Personal",
+        "description": "Mi portafolio profesional desarrollado con React, TypeScript y Tailwind CSS, presentando mis proyectos y habilidades."
       },
       {
-        "title": "Proyecto Beta",
-        "description": "Plataforma de comercio electrónico con gestión de inventario en tiempo real."
+        "title": "Task Manager",
+        "description": "Gestor de tareas full-stack con API RESTful, frontend en React y backend en Node.js con MongoDB."
       },
       {
-        "title": "Proyecto Gamma",
-        "description": "Panel de redes sociales para análisis y programación."
+        "title": "Sistema de Gestión Escolar",
+        "description": "Sistema de escritorio para gestión escolar con registro de alumnos, profesores, cursos y clases usando Python y SQLite."
       }
     ]
   },

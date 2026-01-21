@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion as Motion } from 'framer-motion';
 import GlassCard from '../components/GlassCard';
+import profilePhoto from '../assets/profilePhoto.png';
 
 const About: React.FC = () => {
     const { t } = useTranslation();
@@ -20,7 +21,7 @@ const About: React.FC = () => {
                         <div className="relative w-64 h-64 mx-auto md:mx-0">
                             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl rotate-6 opacity-50 blur-lg"></div>
                             <img
-                                src="https://placehold.co/400x400/1e293b/ffffff?text=Profile"
+                                src={profilePhoto}
                                 alt={t('about.imageAlt')}
                                 loading="lazy"
                                 className="relative w-full h-full object-cover rounded-2xl shadow-xl border-2 border-white dark:border-gray-800"

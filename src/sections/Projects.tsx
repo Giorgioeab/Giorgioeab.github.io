@@ -3,6 +3,9 @@ import { useTranslation } from 'react-i18next';
 import { motion as Motion } from 'framer-motion';
 import GlassCard from '../components/GlassCard';
 import { ExternalLink, Github } from 'lucide-react';
+import portfolioScreenshotPtBr from '../assets/portfolio_screenshot_pt_br.png';
+import portfolioScreenshotEn from '../assets/portfolio_screenshot_en.png';
+import portfolioScreenshotEs from '../assets/portfolio_screenshot_es.png';
 
 interface ProjectLinks {
     demo: string;
@@ -18,29 +21,41 @@ interface Project {
 }
 
 const Projects: React.FC = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+
+    // Select portfolio screenshot based on current language
+    const getPortfolioScreenshot = (): string => {
+        switch (i18n.language) {
+            case 'en':
+                return portfolioScreenshotEn;
+            case 'es':
+                return portfolioScreenshotEs;
+            default:
+                return portfolioScreenshotPtBr;
+        }
+    };
 
     const projects: Project[] = [
         {
             title: t('projects.items.0.title'),
             description: t('projects.items.0.description'),
-            tech: ['React', 'Node.js', 'OpenAI'],
-            image: 'https://placehold.co/600x400/2563eb/ffffff?text=Project+Alpha',
-            links: { demo: '#', github: '#' }
+            tech: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
+            image: getPortfolioScreenshot(),
+            links: { demo: 'https://giorgioeab.github.io', github: 'https://github.com/Giorgioeab/Giorgioeab.github.io/tree/develop' }
         },
         {
             title: t('projects.items.1.title'),
             description: t('projects.items.1.description'),
-            tech: ['Next.js', 'Stripe', 'Supabase'],
-            image: 'https://placehold.co/600x400/9333ea/ffffff?text=Project+Beta',
-            links: { demo: '#', github: '#' }
+            tech: ['React', 'Node.js', 'Express', 'MongoDB', 'SCSS'],
+            image: 'https://placehold.co/600x400/9333ea/ffffff?text=Task+Manager',
+            links: { demo: '#', github: 'https://github.com/Giorgioeab/frontend-task_manager' }
         },
         {
             title: t('projects.items.2.title'),
             description: t('projects.items.2.description'),
-            tech: ['Vue', 'Firebase', 'Chart.js'],
-            image: 'https://placehold.co/600x400/db2777/ffffff?text=Project+Gamma',
-            links: { demo: '#', github: '#' }
+            tech: ['Python', 'Tkinter', 'SQLite'],
+            image: 'https://placehold.co/600x400/db2777/ffffff?text=SGE',
+            links: { demo: '#', github: 'https://github.com/Giorgioeab/ProjetoSGE' }
         }
     ];
 
