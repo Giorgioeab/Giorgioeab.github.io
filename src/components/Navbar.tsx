@@ -99,7 +99,7 @@ const Navbar: React.FC = () => {
 
     return (
         <nav
-            className={`fixed w-full z-50 transition-all duration-300 ${scrolled
+            className={`fixed left-0 right-0 max-w-full overflow-hidden z-50 transition-all duration-300 ${scrolled
                     ? 'bg-white/70 dark:bg-black/70 backdrop-blur-md shadow-lg py-4'
                     : 'bg-transparent py-6'
                 }`}
@@ -231,8 +231,8 @@ const Navbar: React.FC = () => {
                                             setIsOpen(false);
                                         }}
                                         className={`flex flex-col items-center justify-center p-2 rounded-lg border ${currentLang.code === lang.code
-                                                ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400'
-                                                : 'border-transparent hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300'
+                                            ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400'
+                                            : 'border-transparent hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300'
                                             }`}
                                     >
                                         <div className="mb-1 scale-150">{lang.flag}</div>
