@@ -71,15 +71,13 @@ const Contact: React.FC = () => {
     const handleSubmit = (e: FormEvent<HTMLFormElement>): void => {
         e.preventDefault();
 
-        // In a real scenario, you would send the email here using EmailJS or Formspree
-        // For now, we simulate the process and redirect to WhatsApp
 
         const text = buildWhatsappMessage();
         const whatsappUrl = buildWhatsappUrl(whatsappNumber, text);
 
         window.open(whatsappUrl, '_blank');
 
-        // Reset form
+
         setFormData({ name: '', email: '', message: '' });
         setStatus({ type: 'success', message: t('contact.redirectNotice') });
     };
@@ -101,7 +99,6 @@ const Contact: React.FC = () => {
                 </Motion.h2>
 
                 <div className="flex flex-col md:flex-row gap-12 max-w-6xl mx-auto">
-                    {/* Contact Info */}
                     <Motion.div
                         initial={{ opacity: 0, x: -50 }}
                         whileInView={{ opacity: 1, x: 0 }}
@@ -125,7 +122,6 @@ const Contact: React.FC = () => {
                         </GlassCard>
                     </Motion.div>
 
-                    {/* Contact Form */}
                     <Motion.div
                         initial={{ opacity: 0, x: 50 }}
                         whileInView={{ opacity: 1, x: 0 }}
