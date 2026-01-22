@@ -56,7 +56,7 @@ const Navbar: React.FC = () => {
     const [scrolled, setScrolled] = useState<boolean>(false);
     const langMenuRef = useRef<HTMLDivElement>(null);
 
-    // Handle scroll effect
+
     useEffect(() => {
         const handleScroll = () => {
             setScrolled(window.scrollY > 20);
@@ -65,7 +65,7 @@ const Navbar: React.FC = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    // Close lang menu when clicking outside
+
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
             if (langMenuRef.current && !langMenuRef.current.contains(event.target as Node)) {
@@ -105,7 +105,6 @@ const Navbar: React.FC = () => {
                 }`}
         >
             <div className="container mx-auto px-6 flex justify-between items-center">
-                {/* Logo */}
                 <Motion.div
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
@@ -114,7 +113,6 @@ const Navbar: React.FC = () => {
                     {t('common.brand')}
                 </Motion.div>
 
-                {/* Desktop Menu */}
                 <div className="hidden md:flex items-center gap-1">
                     {navLinks.map((link) => (
                         <a
@@ -127,7 +125,6 @@ const Navbar: React.FC = () => {
                     ))}
 
                     <div className="flex items-center gap-2 ml-4 pl-4 border-l border-gray-300 dark:border-gray-700">
-                        {/* Language Dropdown */}
                         <div className="relative" ref={langMenuRef}>
                             <button
                                 onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}
@@ -179,7 +176,6 @@ const Navbar: React.FC = () => {
                     </div>
                 </div>
 
-                {/* Mobile Menu Button */}
                 <div className="md:hidden flex items-center space-x-4">
                     <button
                         onClick={toggleTheme}
@@ -200,7 +196,6 @@ const Navbar: React.FC = () => {
                 </div>
             </div>
 
-            {/* Mobile Menu Dropdown */}
             {isOpen && (
                 <Motion.div
                     initial={{ opacity: 0, height: 0 }}
