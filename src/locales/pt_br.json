@@ -40,14 +40,16 @@
     "viewMore": "Ver Mais",
     "viewDemo": "Ver demonstração",
     "viewCode": "Ver código",
+    "privateRepo": "Repositório Privado",
+    "privateRepoDesc": "Este projeto é privado devido a restrições comerciais ou de segurança.",
     "items": [
       {
         "title": "Portfólio Pessoal",
         "description": "Meu portfólio profissional desenvolvido com React, TypeScript e Tailwind CSS, apresentando meus projetos e habilidades."
       },
       {
-        "title": "Task Manager",
-        "description": "Gerenciador de tarefas full-stack com API RESTful, frontend em React e backend em Node.js com MongoDB."
+        "title": "Espanhol Essência - Captação de Leads",
+        "description": "Solução robusta de captação de leads com validação frontend em TypeScript e backend seguro em PHP/MySQL para integridade dos dados."
       },
       {
         "title": "Sistema de Gestão Escolar",

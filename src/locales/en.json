@@ -40,14 +40,16 @@
     "viewMore": "View More",
     "viewDemo": "View demo",
     "viewCode": "View code",
+    "privateRepo": "Private Repository",
+    "privateRepoDesc": "This project is private due to commercial or security restrictions.",
     "items": [
       {
         "title": "Personal Portfolio",
         "description": "My professional portfolio built with React, TypeScript and Tailwind CSS, showcasing my projects and skills."
       },
       {
-        "title": "Task Manager",
-        "description": "Full-stack task manager with RESTful API, React frontend and Node.js backend with MongoDB."
+        "title": "Espanhol Essência - Lead Capture",
+        "description": "Robust lead capture solution with TypeScript frontend validation and secure PHP/MySQL backend for data integrity."
       },
       {
         "title": "School Management System",

@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion as Motion } from 'framer-motion';
 import GlassCard from '../components/GlassCard';
-import profilePhoto from '../assets/profilePhoto.png';
+import profilePhoto from '../assets/profilePhoto.webp';
 
 const About: React.FC = () => {
     const { t } = useTranslation();
